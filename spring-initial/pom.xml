@@ -16,6 +16,8 @@
         <module>multi-datasource</module>
         <module>druid-demo</module>
         <module>simple-jdbc-demo</module>
+        <module>programmatic-transaction-demo</module>
+        <module>declarative-transaction-demo</module>
     </modules>
 
     <properties>
