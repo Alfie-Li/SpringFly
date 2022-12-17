@@ -18,3 +18,9 @@
 2.spring boot 1.x 默认使用tomcat连接池，需要移除tomcat-jdbc依赖
 spring.datasource.type=com.zaxxer.hikari.HikariDataSource
 
+## Druid
+1. 详细的监控
+2. exceptionsorter
+3. sql防注入
+4. 内置加密配置
+5. 很多拓展点
