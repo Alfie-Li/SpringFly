@@ -1,0 +1,5 @@
+#spring boot配置数据源
+符合条件时才进行配置
+1. datasourceautoconfiguration自动配置datasource
+2. datasourcetransactionmanagerautoconfiguration自动配置datasourcetransactionmanager
+3. jdbctemplateautoconfiguration自动配置jdbctemplate
