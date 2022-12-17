@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>spring-initial</module>
+		<module>pure-spring-datasource-demo</module>
 	</modules>
 
 
