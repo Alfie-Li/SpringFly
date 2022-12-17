@@ -12,10 +12,10 @@
     <artifactId>spring-initial</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>multi-datasource-demo</module>
         <module>single-datasouce-demo</module>
         <module>multi-datasource</module>
         <module>druid-demo</module>
+        <module>simple-jdbc-demo</module>
     </modules>
 
     <properties>
