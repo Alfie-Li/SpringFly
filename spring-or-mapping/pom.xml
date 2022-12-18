@@ -14,6 +14,10 @@
     <modules>
         <module>spring-data-jpa</module>
         <module>spring-data-complex-jpa</module>
+        <module>mybatis-demo</module>
+        <module>mybatis-generator-demo</module>
+        <module>mybatis-pagehelper</module>
+        <module>springbucks</module>
     </modules>
 
     <properties>
