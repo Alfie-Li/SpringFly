@@ -31,6 +31,8 @@ public class MongoRepositoryDemoApplication implements CommandLineRunner {
     }
 
     @Bean
+    // 注意这里只定义了反序列化，从bson的document对象转换为 Money
+    // 序列化是内置为money转换为bson
     public MongoCustomConversions mongoCustomConversions() {
         return new MongoCustomConversions(Arrays.asList(new MoneyReadConverter()));
     }
