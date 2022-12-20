@@ -14,6 +14,7 @@
 		<module>spring-initial</module>
 		<module>pure-spring-datasource-demo</module>
         <module>spring-or-mapping</module>
+		<module>spring-nosql</module>
 	</modules>
 
 
