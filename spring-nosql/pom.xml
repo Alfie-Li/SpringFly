@@ -14,6 +14,11 @@
     <modules>
         <module>mongo-demo</module>
         <module>mongo-repository-demo</module>
+        <module>jedis-demo</module>
+        <module>cache-demo</module>
+        <module>cache-with-redis-demo</module>
+        <module>redis-demo</module>
+        <module>spring-redis-repository-demo</module>
     </modules>
 
     <properties>
