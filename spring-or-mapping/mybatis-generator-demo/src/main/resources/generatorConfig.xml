@@ -16,7 +16,7 @@
                         password="">
         </jdbcConnection>
         <!--生成模型的包名和位置 -->
-        <javaModelGenerator targetPackage="spring.hello.data.generator.model"
+        <javaModelGenerator targetPackage="spring.hello.data.mybatis.generator.model"
                             targetProject="spring-or-mapping/mybatis-generator-demo/src/main/java">
             <!-- 是否允许子包 -->
             <property name="enableSubPackages" value="true" />
@@ -24,13 +24,13 @@
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="spring.hello.data.generator.mapper"
-                         targetProject="spring-or-mapping/mybatis-generator-demo/src/main/resources/mapper">
+        <sqlMapGenerator targetPackage="spring.hello.data.mybatis.generator.mapper"
+                         targetProject="spring-or-mapping/mybatis-generator-demo//src/main/resources/mapper">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
         <javaClientGenerator type="MIXEDMAPPER"
-                             targetPackage="spring.hello.data.generator.mapper"
+                             targetPackage="spring.hello.data.mybatis.generator.mapper"
                              targetProject="spring-or-mapping/mybatis-generator-demo/src/main/java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>

@@ -38,10 +38,8 @@ public class MybatisGeneratorDemoApplication implements ApplicationRunner {
     private void generateArtifacts() throws Exception {
         List<String> warnings = new ArrayList<>();
         ConfigurationParser cp = new ConfigurationParser(warnings);
-//        File configFile = new File("/Users/alfie/workspace/code/learn/learn-spring/hello-spring/spring-or-mapping/mybatis-generator-demo/src/main/resources/generatorConfig.xml");
         Configuration config = cp.parseConfiguration(
-//                configFile
-                this.getClass().getResourceAsStream("spring-or-mapping/mybatis-generator-demo/generatorConfig.xml")
+                this.getClass().getResourceAsStream("/generatorConfig.xml")
         );
         DefaultShellCallback callback = new DefaultShellCallback(true);
         MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
